@@ -1,0 +1,23 @@
+{
+    "name": "henrikheil/PEAR_HTML_Template_IT",
+    "type": "library",
+    "description": "Fork of PEAR HTML_Template_IT",
+    "keywords": ["php", "pear"],
+    "homepage": "https://github.com/henrikheil/PEAR_HTML_Template_IT",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrik Heil",
+            "email": "henrik.heil@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=4"   
+    },
+    "autoload": {    
+        "classmap": [
+            "HTML/Template/"
+        ]
+    }  
+}
