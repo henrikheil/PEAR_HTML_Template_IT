@@ -28,8 +28,6 @@
  * @access   public
  */
 
-require_once "PEAR.php";
-
 /**
 * IT[X] Error class
 * 
