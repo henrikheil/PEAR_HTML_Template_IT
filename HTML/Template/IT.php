@@ -609,6 +609,10 @@ class HTML_Template_IT
             foreach ($this->blockinner[$block] as $k => $innerblock) {
 
                 $this->parse($innerblock, true);
+                if (!isset($this->blockdata[$innerblock])) {
+                    continue;
+                }
+
                 if ($this->blockdata[$innerblock] != '') {
                     $empty = false;
                 }
